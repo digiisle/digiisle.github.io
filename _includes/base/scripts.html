@@ -1,0 +1,20 @@
+{%- include snippets/get-sources.html -%}
+{%- assign sources = _sources -%}
+<!-- GitHub Buttons -->
+<script async defer src="{{ sources.sources.unpkg.buttons }}"></script>
+
+<!-- jQuery CDN -->
+<script src="{{ sources.sources.unpkg.jquery }}"></script>
+
+<!-- Popper.js CDN -->
+<script src="{{ sources.sources.bootstrap.popper_js }}"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="{{ sources.sources.bootstrap.js }}"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="{{ sources.sources.unpkg.wow_js }}"></script>
+<script> new WOW().init(); </script>
+
+<!-- Card Animation jQuery -->
+<script src="{{ '/assets/js/card-animation.js' | relative_url }}"></script>

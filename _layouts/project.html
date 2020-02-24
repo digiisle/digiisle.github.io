@@ -1,0 +1,26 @@
+---
+layout: page
+---
+<div class="col-lg-8 mx-auto article">
+
+  <div data-toc="#toc">
+    {{ content }}
+  </div>
+
+  {% include sharing.html %}
+
+  <footer>
+    This Article is <b>open source</b>. Noticed a typo? </br>
+    Or something unclear? Improve it on {% github_edit_link "GitHub" %}.
+  </footer>
+  {% include comments.html %}
+</div>
+
+<aside class="col-md-3 d-none d-md-block">
+  <div class="sidebar-module">
+    <div class="toc" id="toc"></div>
+  </div>
+
+
+</aside>
+<!-- /.blog-sidebar -->

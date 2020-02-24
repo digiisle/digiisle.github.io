@@ -1,0 +1,5 @@
+{%- if site.sharing.provider == 'addtoany' -%}
+  {%- include sharing/addtoany.html -%}
+{%- elsif site.sharing.provider == 'addthis' -%}
+  {%- include sharing/addthis.html -%}
+{%- endif -%}

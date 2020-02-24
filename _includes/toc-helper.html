@@ -1,0 +1,23 @@
+<!--目录生成-->
+<script>
+{%- include scripts/js/toc-helper.min.js -%}
+</script>
+
+<script type="text/javascript">
+  const tocHelper = new TocHelper({
+    dom: 'div[data-toc]',
+    offsetBody: document.querySelector('#scroll'),
+    tocFixed: {
+      top: 83
+    }
+  })
+  tocHelper.reset()
+  const switchBtn = function () {
+    const scroll = document.querySelector('#scroll')
+    scroll.classList.contains('normal') ? (scroll.classList.remove('normal'), scroll.classList.add('scroll')) : (
+      scroll.classList.add('normal'), scroll.classList.remove('scroll'))
+    tocHelper.megre({
+      offsetBody: document.querySelector('#scroll')
+    }).reload()
+  };
+</script>

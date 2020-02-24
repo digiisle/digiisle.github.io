@@ -1,0 +1,17 @@
+#Default Sources
+sources:
+  gitalk:
+    js: 'https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js'
+    css: 'https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css'
+  valine: 'https://unpkg.com/valine/dist/Valine.min.js'
+  bootstrap:
+    popper_js: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js'
+    js: 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
+    css: 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
+  unpkg:
+    leancloud_js_sdk: '//cdn1.lncld.net/static/js/3.4.1/av-min.js'
+    fontawesome: 'https://use.fontawesome.com/releases/v5.6.3/css/all.css' # http://www.fontawesome.com
+    jquery: 'https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'
+    animate: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css
+    buttons: https://buttons.github.io/buttons.js
+    wow_js: https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js

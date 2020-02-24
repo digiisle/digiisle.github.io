@@ -1,0 +1,103 @@
+# Site settings
+title: Toykang
+description: >- # this means to ignore newlines until "baseurl:"
+  Just do it.
+baseurl: ""  # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+repository: Toykang/fuzzy-octo-enigma
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+archive_dir: archive
+tag_dir: tags
+category_dir: categories
+
+# Build settings
+markdown: kramdown
+# plugins:
+plugins:
+  - jekyll-feed
+
+
+# Author Info
+author:
+  name     : Toykang
+  image    : https://i.postimg.cc/65mF00T0/hd2.jpg
+  email    : qianyunkang@aliyun.com
+  github   : Toykang
+  twitter  : 
+  linkedin : 
+  facebook : 
+
+
+comments:
+  provider: gitalk # "disqus", "gitalk", "valine"
+  ## Disqus
+  disqus:
+    shortname: https-qianyunkang-github-io # the Disqus shortname for the site
+
+  ## Gitalk
+  # please refer to https://github.com/gitalk/gitalk for more info.
+  gitalk:
+    clientID    : ee27f1b1a1f09f09726d # GitHub Application Client ID
+    clientSecret: ae097f1b6dd0ebdf8d12f43afc25c270971b9232 # GitHub Application Client Secret
+    repository  : qianyunkang.GitHub.io # GitHub repo
+    owner       : qianyunkang # GitHub repo owner
+    admin: qianyunkang # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+
+  ## Valine
+  # please refer to https://valine.js.org/en/ for more info.
+  valine:
+    app_id      : nvKhhaSS9ecf2X8yEeMgeJhG-gzGzoHsz # LeanCloud App id
+    app_key     : xGBXXtpdHAJBmigEUOLCmhBV # LeanCloud App key
+    placeholder : 评论 # Prompt information
+
+#page view
+pageview:
+  provider: leancloud
+  leancloud:
+    app_id    : kGM1Sb8BiuLJESDft5agNQjj-9Nh9j0Va
+    app_key   : BgRxnESdYmQAPk4hdE7gncqX
+    app_class : Blog_Views
+
+# Analytics 
+analytics:
+  provider: google # "google"
+
+  ## Google Analytics
+  google:
+    tracking_id : UA-122466435-1 # Google Analytics id for the site
+
+
+#Sharing
+sharing:
+  provider: addtoany # "addtoany"
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+
+# Default values for collections
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+
+# Posts default Permalink
+permalink: articles/:title
+
+
+# Exclude from processing.
+exclude:
+- README.md
+- CONTRIBUTING.md
+- LICENSE
+- Gemfile
+- Gemfile.lock

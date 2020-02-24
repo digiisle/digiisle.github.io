@@ -1,0 +1,7 @@
+{%- if site.comments.provider == 'disqus' -%}
+{%- include comments/disqus.html -%}
+{%- elsif site.comments.provider == 'gitalk' -%}
+{%- include comments/gitalk.html -%}
+{%- elsif site.comments.provider == 'valine' -%}
+{%- include comments/valine.html -%}
+{%- endif -%}

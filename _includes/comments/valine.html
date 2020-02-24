@@ -1,0 +1,28 @@
+{%- assign _VALINE_APP_ID = site.comments.valine.app_id -%}
+{%- assign _VALINE_APP_KEY = site.comments.valine.app_key -%}
+{%- assign _VALINE_PLACEHOLDER = site.comments.valine.placeholder -%}
+
+{%- if page.key and
+_VALINE_APP_ID and
+_VALINE_APP_KEY -%}
+
+{%- include snippets/get-sources.html -%}
+{%- assign sources = _sources -%}
+
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='{{ sources.sources.valine }}'></script>
+
+<div id="vcomments"></div>
+<script>
+  new Valine({
+    el: '#vcomments',
+    appId: '{{ _VALINE_APP_ID }}',
+    appKey: '{{ _VALINE_APP_KEY }}',
+    notify: false,
+    verify: false,
+    avatar: 'wavatar',
+    visitor: true,
+    placeholder: '{{ _VALINE_PLACEHOLDER }}'
+  });
+</script>
+{%- endif -%}

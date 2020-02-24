@@ -1,0 +1,27 @@
+{% for post in site.posts %}
+
+<div class="my-3 wow animated fadeIn" data-wow-delay=".15s">
+  <h4 class="card-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+  <p class="blog-post-meta">
+    <i class="fa fa-calendar"></i>{{ post.date | date: "%F" }}&nbsp;by&nbsp;
+    {% if post.author %}
+    <i class="fa fa-user"></i><a href="{{ post.authorurl }}/about">{{ post.author }} </a>&nbsp;
+    {% else %}
+    <i class="fa fa-user"></i><a href="{{ site.authorurl }}/about">{{ site.author.name }} </a>&nbsp;
+    {% endif %}
+    {% include get-category.html %}
+    {% include get-tag.html %}
+  </p>
+
+  <p class="card-text">
+    {% if post.description %}
+    {{ post.description }}
+    {% else %}
+    {{ post.excerpt }}
+    {% endif %}
+    <a href="{{ site.baseurl }}{{ post.url }}">Read more...</a>
+  </p>
+</div>
+<hr />
+
+{% endfor %}
