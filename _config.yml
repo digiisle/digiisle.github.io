@@ -1,10 +1,10 @@
 # Site settings
-title: Toykang
+title: YogKnight
 description: >- # this means to ignore newlines until "baseurl:"
   Just do it.
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-repository: Toykang/fuzzy-octo-enigma
+repository: YogKnight/fuzzy-octo-enigma
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
@@ -22,10 +22,10 @@ plugins:
 
 # Author Info
 author:
-  name     : Toykang
+  name     : YogKnight
   image    : https://i.postimg.cc/65mF00T0/hd2.jpg
   email    : qianyunkang@aliyun.com
-  github   : Toykang
+  github   : YogKnight
   twitter  : 
   linkedin : 
   facebook : 
