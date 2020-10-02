@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to Jekyll!
-categories: [jekyll update]
+categories: [jekyll]
 tags: [Test]
 excerpt_separator: <!--more-->
 key: 10000000
