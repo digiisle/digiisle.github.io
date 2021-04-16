@@ -57,8 +57,8 @@ comments:
 pageview:
   provider: leancloud
   leancloud:
-    app_id    : kGM1Sb8BiuLJESDft5agNQjj-9Nh9j0Va
-    app_key   : BgRxnESdYmQAPk4hdE7gncqX
+    app_id    : DeAb9qzrQbDK3VApHPKCAbk1-9Nh9j0Va
+    app_key   : RWtJMvC3zFhNeDGCUcXrCXLw
     app_class : Blog_Views
 
 # Analytics 
