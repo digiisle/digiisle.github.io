@@ -1,10 +1,10 @@
 # Site settings
-title: YogKnight
+title: ErickQian
 description: >- # this means to ignore newlines until "baseurl:"
   Just do it.
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-repository: YogKnight/yogknight.github.io
+repository: ErickQian/ErickQian.github.io
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
@@ -22,10 +22,10 @@ plugins:
 
 # Author Info
 author:
-  name     : YogKnight
+  name     : ErickQian
   image    : https://i.postimg.cc/65mF00T0/hd2.jpg
   email    : qianyunkang@aliyun.com
-  github   : YogKnight
+  github   : ErickQian
   twitter  : 
   linkedin : 
   facebook : 
@@ -42,9 +42,9 @@ comments:
   gitalk:
     clientID    : e0712dde20ba0da59c33 # GitHub Application Client ID
     clientSecret: 24dc17828d8ebc9f78c7b427597d019afc239336 # GitHub Application Client Secret
-    repository  : yogknight.github.io # GitHub repo
-    owner       : yogknight # GitHub repo owner
-    admin: yogknight # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    repository  : ErickQian.github.io # GitHub repo
+    owner       : ErickQian # GitHub repo owner
+    admin: ErickQian # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
