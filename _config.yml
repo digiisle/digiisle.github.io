@@ -41,15 +41,15 @@ author:
 
 comments:
   provider: gitalk # "disqus", "gitalk", "valine"
-  ## Disqus
+  ### Disqus ###
   disqus:
     shortname: https-erickqian-github-io # the Disqus shortname for the site
 
   ### Gitalk ###
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : e0712dde20ba0da59c33 # GitHub Application Client ID
-    clientSecret: 24dc17828d8ebc9f78c7b427597d019afc239336 # GitHub Application Client Secret
+    clientID    : 1e87a852118b89bf0689 # GitHub Application Client ID
+    clientSecret: ffd6d23fb05c906bc5ace64db6fc403bb8d38316 # GitHub Application Client Secret
     repository  : ErickQian.github.io # GitHub repo
     owner       : ErickQian # GitHub repo owner
     admin: ErickQian # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
