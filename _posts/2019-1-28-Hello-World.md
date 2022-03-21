@@ -28,3 +28,10 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+
+### 视频扩展播放测试
+<div>{%- include extensions/bilibili.html id='666' -%}</div>
+
+<div>{%- include extensions/ted.html id='emily_esfahani_smith_there_s_more_to_life_than_being_happy' -%}</div>
+
+<div>{%- include extensions/youtube.html id='wbY97-hdD5c' -%}</div>
