@@ -23,9 +23,9 @@ author:
   image             : https://i.postimg.cc/fTRGGjdr/hd-imag01.jpg
   email             : qianyunkang@gmail.com
   github            : ErickQian
-# twitter           : 
-# linkedin          : 
-# facebook          : 
+# twitter           : your_username
+# linkedin          : your_username
+# facebook          : your_username
 # dribbble          : your_username
 # gitlab            : your_username
 # instagram         : your_username
@@ -43,7 +43,7 @@ comments:
   provider: gitalk # "disqus", "gitalk", "valine"
   ## Disqus
   disqus:
-    shortname: https-qianyunkang-github-io # the Disqus shortname for the site
+    shortname: https-erickqian-github-io # the Disqus shortname for the site
 
   ### Gitalk ###
   # please refer to https://github.com/gitalk/gitalk for more info.
