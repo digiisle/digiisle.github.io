@@ -9,7 +9,7 @@ sources:
     js: 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
     css: 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
   unpkg:
-    leancloud_js_sdk: '//code.bdstatic.com/npm/leancloud-storage@4.12.2/dist/av-min.js'
+    leancloud_js_sdk: '//cdn1.lncld.net/static/js/3.4.1/av-min.js'
     fontawesome: 'https://use.fontawesome.com/releases/v5.6.3/css/all.css' # http://www.fontawesome.com
     jquery: 'https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'
     animate: https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css
