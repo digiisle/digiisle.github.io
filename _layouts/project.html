@@ -1,18 +1,43 @@
 ---
 layout: page
 ---
-<div class="col-lg-8 mx-auto article">
-
+<div class="col-lg-8 mx-auto mt-5 article">
   <div data-toc="#toc">
+    <h3><b>{{ page.title }}</b></h3>
+    <p class="article-metadata text-muted">
+      <i class="fa fa-calendar"></i>{{ page.date | date: "%Y-%m-%d" }}&nbsp; by &nbsp;
+      {% if page.author %}
+      <i class="fa fa-user"></i><a href="{{ page.authorurl }}/about">{{ page.author }} </a>
+      {% else %}
+      <i class="fa fa-user"></i><a href="{{ site.authorurl }}/about">{{ site.author.name }} </a>
+      {% endif %}
+      &nbsp;
+      <i class="fa fa-eye" aria-hidden="true"></i>
+      <span class="js-pageview" data-page-key="{{ page.key }}">0</span>
+      <em class="post-meta-item-text">阅读</em>
+
+      <br />
+      <b>
+        {% assign words = content | number_of_words %}
+        {% if words < 360 %}
+        less than 1 min read time
+        {% else %}
+        {{ words | divided_by:180 }} mins read time
+        {% endif %}
+      </b>
+
+    </p>
+
     {{ content }}
+
   </div>
+  <footer>
+    {% include license/footer.html %}
+  </footer>
 
   {% include sharing.html %}
+  {% include page-turning.html %}
 
-  <footer>
-    This Article is <b>open source</b>. Noticed a typo? </br>
-    Or something unclear? Improve it on {% github_edit_link "GitHub" %}.
-  </footer>
   {% include comments.html %}
 </div>
 
