@@ -1,35 +1,43 @@
-# Site settings
+### Site Settings ###
 title: ErickQian
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- 
   Just do it.
-baseurl: ""  # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "" 
 repository: ErickQian/ErickQian.github.io
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
 archive_dir: archive
 tag_dir: tags
 category_dir: categories
 
 # Build settings
 markdown: kramdown
-# plugins:
+
+### Plugins ###
 plugins:
   - jekyll-feed
 
 
-# Author Info
+### Author Info ###
 author:
-  name     : ErickQian
-  image    : https://i.postimg.cc/fTRGGjdr/hd-imag01.jpg
-  email    : qianyunkang@aliyun.com
-  github   : ErickQian
-  twitter  : 
-  linkedin : 
-  facebook : 
-
+  name              : ErickQian
+  image             : https://i.postimg.cc/fTRGGjdr/hd-imag01.jpg
+  email             : qianyunkang@gmail.com
+  github            : ErickQian
+# twitter           : 
+# linkedin          : 
+# facebook          : 
+# dribbble          : your_username
+# gitlab            : your_username
+# instagram         : your_username
+# kaggle            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
 
 comments:
   provider: gitalk # "disqus", "gitalk", "valine"
@@ -37,7 +45,7 @@ comments:
   disqus:
     shortname: https-qianyunkang-github-io # the Disqus shortname for the site
 
-  ## Gitalk
+  ### Gitalk ###
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
     clientID    : e0712dde20ba0da59c33 # GitHub Application Client ID
@@ -46,14 +54,14 @@ comments:
     owner       : ErickQian # GitHub repo owner
     admin: ErickQian # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
 
-  ## Valine
+  ### Valine ###
   # please refer to https://valine.js.org/en/ for more info.
   valine:
     app_id      : nvKhhaSS9ecf2X8yEeMgeJhG-gzGzoHsz # LeanCloud App id
     app_key     : xGBXXtpdHAJBmigEUOLCmhBV # LeanCloud App key
     placeholder : 评论 # Prompt information
 
-#page view
+### page view ###
 pageview:
   provider: leancloud
   leancloud:
@@ -61,20 +69,22 @@ pageview:
     app_key   : RWtJMvC3zFhNeDGCUcXrCXLw
     app_class : Blog_Views
 
-# Analytics 
+#### Analytics ###
 analytics:
-  provider: google # "google"
+  # google
+  provider: google 
 
-  ## Google Analytics
+  # Google Analytics
   google:
-    tracking_id : UA-122466435-1 # Google Analytics id for the site
+    # Google Analytics id for the site
+    tracking_id : UA-122466435-1
 
 
-#Sharing
+### Sharing ###
 sharing:
   provider: addtoany # "addtoany"
 
-# Collections
+### Collections ###
 collections:
   projects:
     output: true
