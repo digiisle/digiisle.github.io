@@ -43,11 +43,12 @@ author:
 # youtube           : your_channel_name
 # keybase           : your_username
 
+### Comments ###
 comments:
   provider: gitalk # "disqus", "gitalk", "valine"
   ### Disqus ###
   disqus:
-    shortname: https-erickqian-github-io # the Disqus shortname for the site
+    shortname: https-YogKnight-GitHub-io # the Disqus shortname for the site
 
   ### Gitalk ###
   # please refer to https://github.com/gitalk/gitalk for more info.
@@ -109,7 +110,7 @@ defaults:
       layout: "project"
 
 # Posts default Permalink
-permalink: articles/:title
+permalink: blog/:title
 
 
 # Exclude from processing.
