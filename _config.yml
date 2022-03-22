@@ -6,6 +6,11 @@ baseurl: ""
 url: ""
 repository: ErickQian/ErickQian.github.io
 
+### categories、tags path ###
+archive_dir: pages/archive
+tag_dir: pages/tags
+category_dir: pages/categories
+
 # Build settings
 markdown: kramdown
 
