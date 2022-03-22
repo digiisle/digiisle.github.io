@@ -1,15 +1,13 @@
 ---
+key: 10000001
 layout: post
 title: Markdown常用语法
 categories: [Markdown]
 tags: [Markdown]
 excerpt_separator: <!--more-->
-key: 10000001
 ---
 
-Markdown基础语法介绍及显示效果展示。测试在本网站中Markdown的显示，Jekyll默认是通过kramdown来解析的，部分显示和Markdown不一致。[详细文档](https://daringfireball.net/projects/markdown/syntax#list)。
-
-<!--more-->
+Markdown基础语法介绍及显示效果展示。测试在本网站中Markdown的显示，Jekyll默认是通过kramdown来解析的，部分显示和Markdown不一致。<!--more-->[详细文档](https://daringfireball.net/projects/markdown/syntax#list)。
 
 ## 标题
 #符号的个数表示标题的层级，#后不要忘记空格
