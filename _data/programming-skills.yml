@@ -1,11 +1,11 @@
 - name: Python
-  percentage: 90
+  percentage: 80
   color: danger
 
 - name: Flask
-  percentage: 80
-  color:
-
-- name: React
   percentage: 75
   color: dark
+
+- name: React
+  percentage: 70
+  color: success

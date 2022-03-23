@@ -114,11 +114,16 @@ defaults:
     values:
       layout: "project"
 
-# Posts default Permalink
+### Posts default Permalink ###
 permalink: blog/:title
 
+### About Footer ###
+sitelink: https://erickqian.github.io/
+repositoryurl: https://github.com/ErickQian/ErickQian.github.io
+zipurl: https://github.com/ErickQian/ErickQian.github.io/archive/refs/heads/master.zip
 
-# Exclude from processing.
+
+### Exclude from processing. ###
 exclude:
 - README.md
 - CONTRIBUTING.md

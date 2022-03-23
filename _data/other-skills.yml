@@ -3,5 +3,5 @@
   color: info
 
 - name: Security
-  percentage: 85
-  color: success
+  percentage: 80
+  color: secondary
