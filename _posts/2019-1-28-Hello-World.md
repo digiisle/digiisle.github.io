@@ -29,10 +29,10 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
 
-## 图片测试
+### 图片测试
 ![Xshell_solarized-dark.png](https://s2.loli.net/2022/03/22/wag4OD8G15pxENS.png)
 
-## 视频扩展播放测试
+### 视频扩展播放测试
 <div>{%- include extensions/bilibili.html aid='757447227' bvid='BV1L64y1S7kC' cid='320645145' -%}</div>
 
 <div>{%- include extensions/ted.html id='emily_esfahani_smith_there_s_more_to_life_than_being_happy' -%}</div>
