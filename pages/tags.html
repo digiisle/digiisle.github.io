@@ -1,20 +1,15 @@
 ---
 layout: default
 ---
-
 <main class="flex-shrink-0 container mt-5">
-
     {% include base/navbar.html %}
-
     <div class="row">
-
         {% capture tags %}
         {% for tag in site.tags %}
         {{ tag[0] }}
         {% endfor %}
         {% endcapture %}
         {% assign sortedtags = tags | split:' ' | sort %}
-
         <div class="col-lg-9 mx-auto mt-5 article">
             <div data-toc="#toc">
                 {% for tag in sortedtags %}
@@ -27,20 +22,14 @@ layout: default
                     </li>
                 </ul>
                 {% endfor %}
-
                 {% endfor %}
             </div>
         </div>
-
-
         <aside class="col-md-3 d-none d-md-block">
-
             <div class="sidebar-module">
                 <div class="toc" id="toc"></div>
             </div>
-
         </aside>
-
     </div>
     <!-- /.row -->
 </main>

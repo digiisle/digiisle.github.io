@@ -11,7 +11,6 @@
   {% assign count = count | plus: 1 %}
   {% endif %}
   {% endfor %}
-
   {% assign counts = counts | split: ', ' | reverse %}
   {% assign i = 0 %}
   <div data-toc="#toc">
@@ -33,12 +32,9 @@
       {% endfor %}
   </div>
 </div>
-
 <aside class="col-md-3 d-none d-md-block">
     <div class="sidebar-module">
       <div class="toc" id="toc"></div>
     </div>
- 
-
 </aside>
 <!-- /.blog-sidebar -->

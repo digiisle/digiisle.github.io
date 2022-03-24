@@ -9,14 +9,12 @@
 
 {%- include snippets/get-sources.html -%}
 {%- assign sources = _sources -%}
-  
   <script>
     {%- include scripts/utils/utils.js -%}
     {%- include scripts/lib/throttle.js -%}
     {%- include scripts/lib/lazyload.js -%}
     {%- include scripts/js/leancloud.js -%}
   </script>
-  
   <script>
     window.Lazyload.js(['{{ sources.sources.unpkg.jquery }}', '{{ sources.sources.unpkg.leancloud_js_sdk }}'], function() {
       var pageview = window.pageview(AV, {
@@ -31,5 +29,4 @@
       });
     });
   </script>
-
 {%- endif -%}
