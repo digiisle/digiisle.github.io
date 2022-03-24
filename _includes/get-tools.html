@@ -1,0 +1,9 @@
+{% capture tools %}
+{% for tool in page.tools %}
+<a>{{ tool | join: "/" }}</a>{%unless forloop.last %}&nbsp;{% endunless %}
+{% endfor %}
+{% endcapture %}
+<!-- <span class="point">•</span> -->
+<span class="pageTag">
+    <i class="fa fa-tools"></i>{{ tools }}
+</span>

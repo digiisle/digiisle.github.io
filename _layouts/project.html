@@ -11,11 +11,13 @@ layout: page
       {% else %}
       <i class="fa fa-user"></i><a href="{{ site.authorurl }}/about">{{ site.author.name }} </a>
       {% endif %}
+      {% include get-tools.html %}
+      <!--
       &nbsp;
       <i class="fa fa-eye" aria-hidden="true"></i>
       <span class="js-pageview" data-page-key="{{ page.key }}">0</span>
       <em class="post-meta-item-text">阅读</em>
-
+      -->
       <br />
       <b>
         {% assign words = content | number_of_words %}
@@ -25,7 +27,6 @@ layout: page
         {{ words | divided_by:180 }} mins read time
         {% endif %}
       </b>
-
     </p>
 
     {{ content }}
@@ -37,7 +38,6 @@ layout: page
 
   {% include sharing.html %}
   {% include page-turning.html %}
-
   {% include comments.html %}
 </div>
 
@@ -45,7 +45,6 @@ layout: page
   <div class="sidebar-module">
     <div class="toc" id="toc"></div>
   </div>
-
 
 </aside>
 <!-- /.blog-sidebar -->
