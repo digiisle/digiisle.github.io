@@ -1,10 +1,10 @@
 ### Site Settings ###
-title: ErickQian
+title: erickqian
 description: >- 
   Just do it.
 baseurl: ""
 url: ""
-repository: ErickQian/ErickQian.github.io
+repository: erickqian/erickqian.github.io
 
 ### categories、tags path ###
 archive_dir: pages/archive
@@ -28,10 +28,10 @@ nav_exclude:
 
 ### Author Info ###
 author:
-  name              : ErickQian
+  name              : erickqian
   image             : https://s2.loli.net/2022/03/22/JyQx6VB8vIiZsr2.jpg
   email             : qianyunkang@gmail.com
-  github            : ErickQian
+  github            : erickqian
 # twitter           : your_username
 # linkedin          : your_username
 # facebook          : your_username
@@ -60,9 +60,9 @@ comments:
   gitalk:
     clientID    : 1e87a852118b89bf0689 # GitHub Application Client ID
     clientSecret: ffd6d23fb05c906bc5ace64db6fc403bb8d38316 # GitHub Application Client Secret
-    repository  : ErickQian.github.io # GitHub repo
-    owner       : ErickQian # GitHub repo owner
-    admin: ErickQian # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    repository  : erickqian.github.io # GitHub repo
+    owner       : erickqian # GitHub repo owner
+    admin: erickqian # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
 
   ### Valine ###
   # please refer to https://valine.js.org/en/ for more info.
@@ -119,8 +119,8 @@ permalink: blog/:title
 
 ### About Footer ###
 sitelink: https://erickqian.github.io/
-repositoryurl: https://github.com/ErickQian/ErickQian.github.io
-zipurl: https://github.com/ErickQian/ErickQian.github.io/archive/refs/heads/master.zip
+repositoryurl: https://github.com/erickqian/erickqian.github.io
+zipurl: https://github.com/erickqian/erickqian.github.io/archive/refs/heads/master.zip
 
 
 ### Exclude from processing. ###
