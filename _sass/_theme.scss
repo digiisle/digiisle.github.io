@@ -31,3 +31,6 @@
   @include themed(background-color, $light, $dark);
 }
 
+.toc {
+  @include themed(background-color, $light, $dark);
+}
