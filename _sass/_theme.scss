@@ -33,4 +33,5 @@
 
 .toc {
   @include themed(background-color, $light, $dark);
+  @include themed(color, $text-black, $text-white);
 }
