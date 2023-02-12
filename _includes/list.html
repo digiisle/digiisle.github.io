@@ -1,7 +1,7 @@
 {% assign items = list_items | newline_to_br | split: '<br />' %}
 <div class="list-group my-3">
   {% if include.title %}
-    <a class="list-group-item list-group-item-action active disabled text-white">{{ include.title }}</a>
+    <a class="list-group-item list-group-item-action active disabled text-themed">{{ include.title }}</a>
   {% endif %}
 
   {% for item in items %}
