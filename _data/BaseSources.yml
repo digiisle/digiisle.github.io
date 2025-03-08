@@ -6,7 +6,7 @@ sources:
   valine: 'https://unpkg.com/valine/dist/Valine.min.js'
   bootstrap:
     popper_js: 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js'
-    js: 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
+    js: 'https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js'
     css: 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css'
   unpkg:
     leancloud_js_sdk: '//cdn1.lncld.net/static/js/3.4.1/av-min.js'
